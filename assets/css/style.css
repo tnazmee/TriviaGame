@@ -1,0 +1,82 @@
+body { 
+    background-image: url("../images/41900220-hand-drawn-doodle-sport-background-vector-cartoon-pattern-with-sport-icons.jpg");
+}
+
+h1, img, div, h3, #startButton, body {
+	color: black;
+	text-align: center;
+	opacity: 1;
+	font-weight: bolder;
+}
+
+img {
+	
+	height: 300px;
+	width: 500px;
+    border-left: 10px solid deepskyblue;
+    border-right: 10px solid deepskyblue;
+    border-top: 10px solid deepskyblue;
+    border-bottom: 10px solid deepskyblue;
+}
+
+h3:hover {
+	transform: scale(1.1);
+	color: white;
+	transition-duration: 0.8s;
+	cursor: pointer;
+}
+
+section {
+	width: 70%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-left: 6px;
+	border-right: 6px;
+}
+
+h3, p {
+	width: 30%;
+	margin: 0 auto;
+	border-radius: 50%;
+	padding: 10px;
+	line-height: 35px;
+}
+
+h1 {
+	font-size: 55px;
+	padding: 25px;
+}
+
+#startButton {
+    padding: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+	text-align: center;
+	opacity: 1;
+	font-weight: bolder;
+}
+
+#timerClock {
+	padding: 35px;
+	font-size: 30px;
+}
+
+#intro {
+    font-size: 35px;
+}
+
+#alert {
+	font-size: 30px;
+	line-height: 25px;
+}
+p {
+    padding-top: 25px;
+    font-size: 24px;
+}
+  
+  
